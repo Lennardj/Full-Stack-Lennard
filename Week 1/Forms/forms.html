@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="forms.css">
+</head>
+<body>
+ 
+<form action="mailto:lennardj@missionreadyhq.com">
+<Fieldset>
+<legend>Personal Information</legend>
+<label for="firstName"> Name:</label><br>
+<input required placeholder="Joe" type="text" name="firstName" id="firstName"><br>
+
+<label for="email">Email:</label><br>
+<input required placeholder="@email.com" type="email" id="email" name="email" ><br><br>
+
+<label for="subject">Subject:</label><br>
+<input type="radio" name="subject" id="subject">Sales <br>
+<input type="radio" name="subject" id="subject">Support <br>
+<input type="radio" name="subject" id="subject">Others<br><br>
+
+<label for="Message">Message</label><br>
+<textarea id="message" name="w3review" rows="4" cols="50"></textarea><br><br>
+
+<input type="submit" value="Submit">
+<button type="reset">Reset</button>
+
+</Fieldset>
+
+</form>
+
+<br>
+<div id="transition">Loading</div><br>
+</body>
+</html>

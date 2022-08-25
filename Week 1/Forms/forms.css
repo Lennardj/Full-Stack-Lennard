@@ -1,0 +1,59 @@
+
+input{
+    width: "40%";
+
+}
+label{
+    font-family: Tahoma, san-serif;
+    color: aqua;
+}
+input[type=text],input[type=email] {
+
+    padding: 2px 2px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid purple;
+
+}
+button{
+    color: white;
+    background-color: blueviolet;
+
+}
+textarea{
+    border: 2px solid purple;
+}
+input[type=submit]{
+background-color: purple;
+color:white;
+width: 10%;
+}
+input[type=radio]{
+
+    color:red;
+}
+
+#transition{
+    width:100px;
+    height: 15px;
+    background-color: rgba(0, 0, 255, 0.587);
+    /* transition: width 2s, height 2s; */
+}
+
+#transition:hover{
+    /* width:200px; */
+    /* height: 200px; */
+    animation-name: loading;
+    animation-duration: 10s;
+}
+
+/* div:hover{
+    width:200px;
+} */
+/* button:hover{
+   animation-name: example;
+   animation-duration: 5s; */
+/* } */
+@keyframes loading {
+    from {background-color: rgba(0, 0, 255, 0.587);width: 100px;}
+    to {background-color: blue;width: 500px;}

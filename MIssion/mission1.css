@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+    background-color: none;
+    margin: 0;
+}
+#main-container{
+    display: flex;
+    /* background-color: aqua; */
+    gap: 2px;
+    height: 100%;
+    /* change back to 200px if needed */
+    width: 100%;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+}
+
+#first-column{
+    background: linear-gradient(90deg,rgba(0, 200, 255, 0.328),rgba(213, 252, 213, 0.006),rgb(173, 161, 161));
+    width: 50%;
+}
+#second-column{
+    background: linear-gradient(180deg,rgba(213, 252, 213, 0.006),rgba(0, 200, 255, 0.328),rgb(173, 161, 161));
+    width: 50%;
+}
+
+.mini-column{
+    display: flex;
+}
+.mini-column div{
+    margin-right: 0px;
+}
+form{
+display: flex;
+ 
+}
+i{
+    margin: 10px 10px;
+}
+img{
+  float: right;
+    height: 30%;
+    width: 45%;
+    
+}
+section{
+    margin-left: auto;
+    margin-right: auto;
+}
+a:visited {
+    color: grey;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: white;
+  }
+  h3 a:visited {
+    color: grey;
+  }
+  
+  h3 a:hover {
+    color: brown;
+  }
+  
+  h3 a:active {
+    color: white;
+  }
+  img:hover{
+    height: 50%;
+    width: 50%;
+}
+form{
+  width: 300px;
+  height: auto;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+}

@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+}
+ html body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #808080;
+   
+ }
+
+#header{
+    height: 150px;
+    width:auto ;
+    }
+.center_header{
+    text-align: center;
+    text-shadow: 1px 2px 2px rgba(224, 65, 16, 0.96);
+    }
+    #menu {
+        background: #0099CC;
+        background: linear-gradient(to bottom,  #0099CC,  #FF99CC);
+        color: #FFF;
+        height: 45px;
+        padding-left: 18px;
+        border-radius: 10px;
+    }
+    #menu ul, #menu li {
+        margin: 0 auto;
+        padding: 0;
+        list-style: none
+    }
+    #menu ul {
+        width: 100%;
+    }
+    #menu li {
+        float: left;
+        display: inline;
+        position: relative;
+    }
+    #menu a {
+        display: block;
+        line-height: 45px;
+        padding: 0 14px;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+    #menu a.dropdown-arrow:after {
+        content: "\25BE";
+        margin-left: 5px;
+    }
+    #menu li a:hover {
+        color: #0099CC;
+        background: #F2F2F2;
+    }
+    #menu input {
+        display: none;
+        margin: 0;
+        padding: 0;
+        height: 45px;
+        width: 100%;
+        opacity: 0;
+        cursor: pointer
+    }
+    #menu label {
+        display: none;
+        line-height: 45px;
+        text-align: center;
+        position: absolute;
+        left: 35px
+    }
+    #menu label:before {
+        font-size: 1.6em;
+        content: "\2261"; 
+        margin-left: 20px;
+    }
+    #menu ul.sub-menus{
+        height: auto;
+        overflow: hidden;
+        width: 170px;
+        background: #444444;
+        position: absolute;
+        z-index: 99;
+        display: none;
+    }
+    #menu ul.sub-menus li {
+        display: block;
+        width: 100%;
+    }
+    #menu ul.sub-menus a {
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+    #menu li:hover ul.sub-menus {
+        display: block
+    }
+    #menu ul.sub-menus a:hover{
+        background: #F2F2F2;
+        color: #444444;
+    }
+    @media screen and (max-width: 800px){
+        #menu {position:relative}
+        #menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
+        #menu ul.sub-menus {width:100%;position:static;}
+        #menu ul.sub-menus a {padding-left:30px;}
+        #menu li {display:block;float:none;width:auto;}
+        #menu input, #menu label {position:absolute;top:0;left:0;display:block}
+        #menu input {z-index:4}
+        #menu input:checked + label {color:white}
+        #menu input:checked + label:before {content:"\00d7"}
+        #menu input:checked ~ ul {display:block}
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: stretch;
+      }
+      
+      .flex-items:nth-child(1) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+      }
+      
+      .flex-items:nth-child(2) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+      }
+      
+      .flex-items:nth-child(3) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+      }
+      .flex-items{
+        height: 300px;
+        width: 300px;
+        margin: 20px;
+      } 
+      .flex-container1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: stretch;
+      }
+      
+      .flex-items1:nth-child(1) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+      }
+      
+      .flex-items1:nth-child(2) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+      }
+      
+      .flex-items1:nth-child(3) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+      }
+      .flex-items1{
+        height: 300px;
+        width: 300px;
+        margin: 50px;
+      } 
+      .flex-container2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: stretch;
+      }
+      
+      .flex-items2:nth-child(1) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+      }
+      
+      .flex-items2:nth-child(2) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+      }
+      
+      .flex-items2:nth-child(3) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+      }
+      .flex-items2{
+        height: 300px;
+        width: 300px;
+        margin: 20px;
+      } 
+      /* ----------------------------------------------
+ * Generated by Animista on 2022-8-24 13:15:20
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation swing-top-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes swing-top-fwd {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+    100% {
+      -webkit-transform: rotateX(180deg);
+              transform: rotateX(180deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+  @keyframes swing-top-fwd {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+    100% {
+      -webkit-transform: rotateX(180deg);
+              transform: rotateX(180deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+  .swing-top-fwd {
+	-webkit-animation: swing-top-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: swing-top-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation-iteration-count: infinite;
+}  
+/* ----------------------------------------------
+ * Generated by Animista on 2022-8-24 17:14:57
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-up-tl
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-up-tl {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+    }
+  }
+  @keyframes scale-up-tl {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+    }
+  }
+  .scale-up-tl {
+	-webkit-animation: scale-up-tl 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-tl 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}   
+/* #firstrow_a1{
+    
+        border: 5px outset rgba(128, 128, 0, 0.261);
+        border-radius: 40px 0px 0px 0px;
+        
+}
+#firstrow_a2{
+    
+    border: 5px outset rgba(128, 128, 0, 0.261);
+    border-radius: 40px 0px 0px 0px;
+    
+}
+#firstrow_a3{
+    
+    border: 5px outset rgba(128, 128, 0, 0.261);
+    border-radius: 40px 0px 0px 0px;
+
+} */
+.color_white{
+    color: white;
+    border: 5px outset rgba(128, 128, 0, 0.261);
+    border-radius: 40px 0px 0px 0px;
+}

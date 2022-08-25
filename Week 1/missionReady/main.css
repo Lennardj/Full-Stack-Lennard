@@ -1,0 +1,19 @@
+body{
+background-color: aqua;
+
+}
+/* This is a comment, that can be used for multi lines */
+h1{
+   background-color: black;
+    color:brown;
+    font-size: 90px;
+    margin: 35 0px
+    border:auto;
+}
+p{
+    background-color: wheat;
+    margin: 35px 5px ;
+    text-decoration: underline wavy red 5px;
+}
+
+
