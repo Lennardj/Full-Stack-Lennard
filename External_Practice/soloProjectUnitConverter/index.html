@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div id="header-section">
+            <div>
+                <input type="checkbox" 
+                class="checkbox" id="checkbox">
+                   <label for="checkbox" class="label">
+                    <i class="fa fa-sun-o" aria-hidden="true"></i>
+                    <i class="fa fa-moon-o" aria-hidden="true"></i>
+                    <div class="ball"></div>
+                   </label>
+            </div>
+        <h1 id="heading">Metric/Imperial Unit Conversion</h1>
+        <input type="number" id="input-El">
+        <button id="convert-btn">Convert</button>
+    </div>
+    <div id="display-section">
+        <div class="displayinfo firstdisplay">
+            <h3>Length (Meter/Feet)</h3>
+            <p id="length-El" class="lightcolor">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+        </div>
+        <div class="displayinfo">
+            <h3>Volume (Liters/Gallons)</h3>
+            <p id="volume-El" class="lightcolor">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+        </div>
+        <div class="displayinfo lastdisplay">
+            <h3>Mass (Kilograms/Pounds)</h3>
+            <p id="mass-El" class="lightcolor">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

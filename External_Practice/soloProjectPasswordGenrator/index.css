@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: #1C1C1C;
+
+}
+
+.container{
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+    height: 550px;
+    width: 550px;
+    padding: 115px 144px 355px 52px ;
+    border-radius: 6px;
+    /* left: 62px;
+    top: 64px;
+    border-radius: 0px; */
+
+
+}
+.passwordOutContainer{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.passwordOutput{
+    width: 170px;
+    height: 30px;
+    left: 52px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 2;
+    color: white;
+}
+h1{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* width: 354px;
+    height: 85px;
+    left: 52px;
+    top: 115px;
+    line-height: 40px;
+    letter-spacing: -0.025em; */
+
+}
+.green-txt{
+  color:#4ADF86 ;  
+ 
+}
+.under-txt{
+    color: #D5D4D8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    background: none;
+    /* line-height: 28px;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 205px; */
+    }
+
+.btn{
+    background: #10B981;
+    color: white;
+    height: 42px;
+    width: 191px;
+    left: 52px;
+    top: 284px;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    margin-top: 51px;
+    margin-bottom: 35px ;
+
+    }
+    hr{
+        margin-bottom: 35px;
+       background: #2F3E53;
+       color: #2F3E53;
+    
+    }

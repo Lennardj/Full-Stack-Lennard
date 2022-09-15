@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    text-align: center;
+    width: 600px;
+    margin-left: 200px;
+    border: 2px red solid;
+    border-radius: 3px;
+    box-shadow: #1B244A;
+}
+h3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 700;
+font-size: 40px;
+color:#EEEEEE ;
+margin: auto;
+padding-bottom: 10px;
+}
+
+.score{
+   
+
+    background: black;
+}
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url(/External_Practice/soloProjectBasketBall/Cursed_Timer_ULiL/CursedTimerULiL.ttf);
+}
+p{
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    margin: auto;
+    padding: 5px 50px ;
+    border-radius: 5px;
+    
+}
+.btn{
+    border: solid 1px #9AABD8;
+    background: #1B244A;
+    color: #9AABD8;
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px;
+    margin: 20px auto;
+    border-radius: 5px;
+
+}
+.btn-con{
+    display: flex;
+    justify-content: space-around;
+}
+.info-con{
+    display: flex;
+    flex-direction: column;
+}

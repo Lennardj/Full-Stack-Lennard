@@ -1,0 +1,89 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+
+   
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(heroBackground.jpeg);
+    background-size: cover;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    color: #F1FAEE;
+    margin-top: 0px;
+    
+    
+}
+.hero:hover{
+/* background-image: url(https://media.giphy.com/media/S8ShENBbeiTCRldRK8/giphy.gif); */
+background-image: url(https://media.giphy.com/media/sRJd8xfzG5SEE5uMTn/giphy-downsized-large.gif);
+}
+.heroInfo{
+    background: #457B9D;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.heroTitle{
+    background: #457B9D;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+#activityMainTitle{
+    padding-bottom: 0px;
+    font-size: 250%;
+   
+}
+.activity{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px 100px 40px;
+    background: #A8DADC;
+    padding-top: 50px;
+    margin-bottom: 55px;
+
+}
+.activityImg{
+    border-radius: ;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 50%;
+}
+#img2{
+    height: 200px;
+}
+/* .activityTitle{
+    background: #A8DADC;
+} */
+.guide{
+   display: flex;
+   justify-content: space-around;
+   width: 400px;
+   background: #A8DADC;
+   padding: 20px;
+   border-radius: 10px;
+   margin: 0px auto;
+   border-bottom: 6px solid #d8cefe;
+   margin-bottom: 100px;
+   box-shadow: 10px 10px 2px #1D3557;
+ 
+}

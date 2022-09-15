@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathDate</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div>
+        <h1>Shoppig List</h1>
+        <input type="text" id="item" placeholder="Item. e.g Tomato"> X
+        <input type="number" id="qty" placeholder="Quantity. e.g 1">
+        <button onclick="addItem()">Add item to list</button>
+        <p id="display"></p>
+</div>
+<hr>
+<div>
+    <h1>Shopping Baskets</h1>
+    <p>Enter all the products you've put into your shopping basket, separated by commas, to see if you've forgotten anything.</p>
+   <input type="text" id="shoppingbasket" placeholder="e.g. tomato,eggs,milk">
+    <input type="button" value="Put Item in basket" onclick="checkItems()">
+    <p id="reminder"></p>
+</div>
+    
+</body>
+</html>
