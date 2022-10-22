@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+}
+.header {
+  justify-content: space-between;
+  align-items: center;
+  height: 67px;
+  margin-top: 20px;
+  padding: 0 15px;
+  border-bottom: 1px solid #c6c6c6;
+}
+.info {
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.logo {
+  width: 137px;
+  height: 33px;
+}
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+h1 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  color: #000000;
+  margin: 0;
+}
+p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  margin: 0;
+}
+.post-van-gogh {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.van-gogh {
+  width: 375px;
+  height: 375px;
+}
+.icon {
+  display: flex;
+  width: 375px;
+  margin: 0 auto;
+  justify-content: left;
+  align-items: center;
+  background: white;
+}
+.icon-Item {
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  margin: 0 auto;
+  justify-content: left;
+  align-items: left;
+  background: white;
+}

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-box {
+  display: block;
+  margin: 5px 0;
+}
+.submitButton {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+.submitButton:hover {
+  background-color: rgb(180, 0, 0);
+}
+.form {
+  background-color: antiquewhite;
+  padding: 0 15px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.574);
+}

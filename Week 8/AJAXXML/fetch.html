@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch</title>
+    <link rel="stylesheet" href="fetch.css" />
+    <script defer src="fetch.js"></script>
+  </head>
+  <body>
+    <div>
+      <button onclick="fetchData()">
+        Fetch the data from the local JSON file
+      </button>
+      <button onclick="fetchDataAndDisplay()">
+        Fetch and display the data from the local JSON file
+      </button>
+      <button onclick="fetchExternalAPIData()">
+        Fetch and display the data from the EXTERNAL JSON file
+      </button>
+      <div id="fetchedData">
+        Some old gabage infor here-Which is to be repaced
+      </div>
+    </div>
+
+    <div>
+      <button onclick="fetchPokemon()">Fetch Pokemon</button>
+      <div id="fetchPokemon"></div>
+    </div>
+  </body>
+</html>
